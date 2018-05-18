@@ -8,6 +8,17 @@ Feature: As I enter my crendintials, I should be able to login.
     And I enter the valid password
     When I click the login
     Then I see a logout button
+    Given I have Chrome browser running
+    When I go to the website
+    And I enter the valid username
+    And I enter the valid password
+    When I click the login
+    Then I see a logout buttonGiven I have Chrome browser running
+    When I go to the website
+    And I enter the valid username
+    And I enter the valid password
+    When I click the login
+    Then I see a logout button
     
     
  
